@@ -1,0 +1,87 @@
+body{
+    background-color: bisque;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    
+}
+p{
+    color: blue;
+}
+.first_para{
+    color: red;
+}
+.red_apple{
+    background-color: yellow;
+    position:relative;
+    top: 40px;
+    margin: 40px;
+}
+.green_apple{
+    background-color: aqua;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+#special{
+    font-weight: bold;
+    color: gold;
+    background-color: rgb(100, 30 , 120);
+}
+.group , h1{
+    font-weight: bold;
+    color: orange;
+    background-color: rgb(119, 120, 30);
+}
+
+/* Pseudo Selector*/
+.apples{
+    color: brown;
+}
+.apples:hover{
+    background-color: gold;
+    color: green;
+    font-weight: bold;
+}
+/* div */
+
+ .square{
+    height: 100px;
+    width: 100px;
+
+    
+    
+    
+
+ }
+
+ .firstBox{
+    background-color: red;
+    /* display: inline; */
+    position: relative;
+  
+}
+.secondBox{
+    background-color: green;
+    /* margin-inline-start: 100px; */
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+
+   
+   
+}
+
+.thirdBox{
+    background-color: blue;
+    /* margin-inline-start: 200px; */
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+    
+   
+}
